@@ -11,4 +11,5 @@
   <li>https://www.eduardopires.net.br/2016/12/apresentando-o-equinox-project/</li>
   <li>https://docs.microsoft.com/pt-br/ef/core/</li>
   <li>https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application</li>
+  <li>https://docs.microsoft.com/pt-br/ef/core/modeling/relationships</li>
 </ul>
