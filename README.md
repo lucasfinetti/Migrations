@@ -1,7 +1,7 @@
 # Migrations
-Simple migrations example <br><br>
+<h4> Simple migrations example </h4>
 
-support material used:
+<h4> Support material used: </h4> 
 
 <ul>
   <li>https://www.youtube.com/watch?v=Yr7fosOsaNs</li>
