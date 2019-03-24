@@ -8,6 +8,8 @@ namespace Migrations.Mappings
     {
         public void Configure(EntityTypeBuilder<Rating> builder)
         {
+            builder.HasKey(c => c.RatingId);
+
             builder.Property(c => c.Stars)
                    .HasMaxLength(1)
                    .IsRequired();

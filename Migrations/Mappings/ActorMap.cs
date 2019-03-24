@@ -8,6 +8,8 @@ namespace Migrations.Mappings
     {
         public void Configure(EntityTypeBuilder<Actor> builder)
         {
+            builder.HasKey(c => c.ActorId);
+
             builder.Property(c => c.Name)
                 .HasMaxLength(100)
                 .IsRequired();

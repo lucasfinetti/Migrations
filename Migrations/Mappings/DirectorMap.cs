@@ -8,6 +8,8 @@ namespace Migrations.Mappings
     {
         public void Configure(EntityTypeBuilder<Director> builder)
         {
+            builder.HasKey(c => c.DirectorId);
+
             builder.Property(c => c.Name)
                 .HasMaxLength(100)
                 .IsRequired();

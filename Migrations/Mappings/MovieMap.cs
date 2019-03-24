@@ -8,6 +8,8 @@ namespace Migrations.Mappings
     {
         public void Configure(EntityTypeBuilder<Movie> builder)
         {
+            builder.HasKey(c => c.MovieId);
+
             builder.Property(c => c.Title)
                 .HasMaxLength(100)
                 .IsRequired();

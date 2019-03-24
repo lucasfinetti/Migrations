@@ -42,6 +42,7 @@ namespace Migrations
             modelBuilder.ApplyConfiguration(new CategoryMap());
             modelBuilder.ApplyConfiguration(new DirectorMap());
             modelBuilder.ApplyConfiguration(new LanguageMap());
+            modelBuilder.ApplyConfiguration(new MovieMap());
             modelBuilder.ApplyConfiguration(new RatingMap());
             modelBuilder.ApplyConfiguration(new ReviewerMap());
 

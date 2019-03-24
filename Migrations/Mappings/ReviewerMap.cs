@@ -8,6 +8,8 @@ namespace Migrations.Mappings
     {
         public void Configure(EntityTypeBuilder<Reviewer> builder)
         {
+            builder.HasKey(c => c.ReviewerId);
+
             builder.Property(c => c.Name)
                 .HasMaxLength(100)
                 .IsRequired();
